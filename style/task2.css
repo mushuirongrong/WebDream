@@ -1,24 +1,145 @@
 	*{
-    margin:0;padding:0;
-	}
-	#top{
-		width:100%;
-		height:50px;
-		padding:10px;
-		background-color:gray;
-	}
-	#top img{
-		width:50px;
-		height:50px;
-		padding-left: 20px;
-	}
-	#banner ul{
-		position:absolute;top:0;right:10px;
-	}
-	#banner ul li{
-	    text-align: center;
-		width:60px;
-	    display:block;
-	    float:left;
-	    padding:20px 10px;
-	}
+	    margin:0;padding:0;
+		}
+		body{
+			font-family: "Microsoft YaHei";
+			background-color: #ddd;
+		}
+
+		/*顶部*/
+
+		#top{
+			width:100%;
+			height:50px;
+			padding:10px;
+			background-color:gray;
+		}
+		#top img{
+			width:50px;
+			height:50px;
+			padding-left: 20px;
+		}
+		#banner ul{
+			position:absolute;top:0;right:10px;
+		}
+		#banner ul li{
+		    text-align: center;
+			width:60px;
+		    display:block;
+		    float:left;
+		    padding:20px 10px;
+		}
+
+		/*正文*/
+
+
+		.zhengwen h1{
+			margin: 10px
+		}
+		.zhengwen h2,p{
+			color: gray;
+			margin: 10px
+		}
+		article,aside{
+		  margin: 20px;
+		  background-color: #ffffff;
+		  padding: 30px 20px;
+		}
+		article img{
+			padding: 0 20px;
+			margin: 20px;
+			width:300px;
+			height:220px;
+
+		}
+		footer{
+		  background-color: black;
+		  text-align: center;
+		  padding: 20px 0  30px 0;
+		}
+		p{
+			line-height: 25px;
+		}
+		article ul li{
+			list-style: none;
+			margin-left: 20px;
+			line-height: 25px;
+		}
+		.tupian figure{
+			width: 380px;
+			height: 300px;
+			border: 1px solid black;
+			margin-top: 20px;
+		}
+		figcaption{
+			margin-top: 20px;
+			text-align: center;
+		}
+		.zhengwen ol{
+			margin-left: 20px;
+			margin-top: 20px;
+		}
+		table {
+		  border: 1px solid #ccc;
+		  width: 100%;
+		  border-collapse: collapse;
+		  text-align: left;
+		}
+		table thead{
+			background-color: black;
+			color: white;
+		}
+		table tfoot{
+			background-color: #ccc;
+		}
+
+		/*边栏*/
+
+		aside{
+			margin: 20px;
+			background-color: white;
+			padding:20px;
+		}
+	        aside header {
+	          border-left: 3px solid #ccc;
+	          padding: 1px 0 1px 10px;
+	          margin-bottom: 10px;
+	        }
+	        aside form div {
+	          margin-top: 5px;
+	          margin-bottom: 10px;
+	        }
+	        aside form .left {
+	          display: inline-block;
+	          width: 40%;
+	          text-align: right;
+	        }
+	        aside form .left:last-of-type {
+	          vertical-align: top;
+	        }
+	        aside form .right {
+	          margin-left: 5px;
+	        }
+	        aside form .placeholder {
+	          margin-left: 40%;
+	          margin-left: calc(40% + 10px);
+	          color: #aaa;
+	          font-size: 14px;
+	        }
+	        aside form input[type="email"],
+	        aside form input[type="password"],
+	        aside form textarea,
+	        aside form select {
+	          padding: 3px;
+	        }
+	        aside form input[type="submit"] {
+	          width: 100%;
+	          padding: 10px 0 10px 0;
+	          border: 1px solid blue;
+	          border-radius: 5px;
+	          background-color: blue;
+	          color: #fff;
+	        }
+	        aside form textarea {
+	          width: 55%;
+	        }
