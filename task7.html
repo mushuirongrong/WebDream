@@ -3,100 +3,115 @@
 <head>
 	<title>Dora task7</title>
 	<meta charset="utf-8">
-	<!-- <link rel="stylesheet" type="text/css" href="style/task7.css"> -->
+	<link rel="stylesheet" type="text/css" href="style/task7/main.css">
+	<link rel="stylesheet" type="text/css" href="style/task7/header.css">
 	<style type="text/css">
-		/* reset 区域 */
-		*,body{
-		  margin:0;
-		  padding:0;
-		  box-sizing: border-box;
-		}
-		a{
-		  text-decoration: none;
-		}
-		ul{
-		  list-style: none;
-		}
-		.fl{
-		  float:left;
-		}
-		.fr{
-		  float:right;
-		}
+		#banner {
 
-		/* main 区域 */
-		#container{
-		  min-width: 1280px;
-		  background-color: red;
 		}
-
-		/*header区域*/
-		#header{
-		  width:100%;
-		  height:57px;
-		  line-height: 57px;
-		  background-color: white;
-		  border-bottom: 1px solid #E6E6E6;
+		#banner .banner_img{
+			background: url(img/task7/banner_img.jpg);
+			width:100%;
+			height:690px;
+			background-size: cover;           /*把背景图像扩展至足够大，以使背景图像完全覆盖背景区域。*/
+			padding-top:228px;                  /*填充文字距离top的距离*/
+			padding-left: 116px;		
 		}
-		#header .logo{
-		  margin-left:60px;
-		  font-size: 21px;
-		  font-family: "黑体";
-		  text-indent: 42px;
-		  background:url(img/task7/logo.png) left center no-repeat;   /*水平位置：左；垂直居中；不循环*/
-		}
-		#header .login_btn{
-			background: url(img/task7/user_icon.png) left center no-repeat;
-			margin-right: 67px;
-			text-indent: 19px;
-			font-size: 14px;
+		#banner .banner_img .title{
+			font-size: 60px;
+			color: white;
 			font-family: "微软雅黑";
-			color:#E34F52;
 		}
-		#header .nav li{
-			width:65px;
-			height:100%;
+		#banner .banner_img p{
+			font-size: 21px;
+			color: white;
+			font-family: "微软雅黑";
+			margin-top: 32px;
+		}
+		#banner .banner_img .start_btn{
+			display: block;
+			width:330px;
+			height:63px;
+			font-size: 30px;
+			color: white;
+			font-family: "微软雅黑";
 			text-align: center;
-			display: inline-block;
+			line-height:63px;
+			background-color: #E74F4D;
+			margin-top: 66px;
+			cursor: pointer;                /*意思就是鼠标指针变成 手 的形状，和放到链接上面的鼠标指针一样。*/
+			transition: all 0.5s;
 		}
-		#header .nav{
-		  height:100%;
-		  margin-right: 37px;
+		#banner .banner_img .start_btn:hover{
+			color: #E74F4D;
+			background-color: white;
 		}
-		#header .nav li:hover a{
-			color: black;
+		#banner .down_options{
+			width:100%;
+			height:250px;
+			background-color: white;
+			padding-top:44px;
+			margin-left:1px;
+
 		}
+		#banner .down_options li{
+			float:left;
+			width:25%;
+			height:100%;
+			font-size: 14px;
+			color:#787476;
+			word-wrap: break-word;          /*允许自动换行，在长单词或 URL 地址内部进行换行。*/
+			font-family: "黑体";
+		}
+		#banner .down_options .first{
+		  background: url(img/task7/round_icon.png) top center no-repeat;
+		}
+		#banner .down_options .second{
+		  background: url(img/task7/flag_icon.png) top center no-repeat;
+		}
+		#banner .down_options .third{
+		  background: url(img/task7/flower_icon.png) top center no-repeat;
+		}
+		#banner .down_options .forth{
+		  background: url(img/task7/four_icon.png) top center no-repeat;
+		}
+
+		#banner .down_options p{
+			margin-top:89px;
+			padding-left:82px;
+			padding-right:82px;
+			text-align: center;
+			height:52px;
+			border-right: 1px solid #787476;
+		}
+
+
 	</style>
 </head>
 <body>
-<!-- 	<div id="wrap">
-		<div id="banner">
-			<img src="">
-			<div id="login">
-				<img src="">
-				<p>登陆</p>
-			</div>
-			<ul>
-				<li>首页</li>
-				<li>最新活动</li>
-				<li>项目介绍</li>
-				<li>爱心社区</li>
-				<li>关于我们</li>
-			</ul>
-
-			
-		</div>
-	</div> -->
 	<div id="container">
 		<div id="header">
 			<div class="logo fl">新世界</div>
-			<a class="login_btn fr">登陆</a>
+			<a href="" class="login_btn fr">登陆</a>
 			<ul class="nav fr">
 			  <li class="active"><a href="#banner">首页</a></li>
 			  <li><a href="#new_world_acti">最新活动</a></li>
 			  <li><a href="#new_world_info">项目介绍</a></li>
 			  <li><a href="#be_vounlenteer">爱心社区</a></li>
 			  <li><a href="#contact">关于我们</a></li>
+			</ul>
+		</div>
+		<div id="banner">
+			<div class="banner_img">
+				<h3 class="title">Time of new life</h3>
+				<p>新时代，年轻的人们让我们一起</br>体验新生活，享受新生活</p>
+				<a class="start_btn">开始体验</a>
+			</div>
+			<ul class="down_options">
+				<li class="first"><p>打造全新世界观，让你更爱你的生活</p></li>
+				<li class="second"><p>丰富多彩的公益活动，发挥新世界的主人公意识</p></li>
+				<li class="third"><p>时尚的新理念，超前体验未知的生活</p></li>
+				<li class="forth"><p>完善的培养机制，培养你全新的世界观</p></li>
 			</ul>
 		</div>
 	</div>
