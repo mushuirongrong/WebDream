@@ -56,16 +56,16 @@
 	font-family: "黑体";
 }
 #banner .down_options .first{
-  background: url(img/task7/round_icon.png) top center no-repeat;
+  background: url(../../img/task7/round_icon.png) top center no-repeat;
 }
 #banner .down_options .second{
-  background: url(img/task7/flag_icon.png) top center no-repeat;
+  background: url(../../img/task7/flag_icon.png) top center no-repeat;
 }
 #banner .down_options .third{
-  background: url(img/task7/flower_icon.png) top center no-repeat;
+  background: url(../../img/task7/flower_icon.png) top center no-repeat;
 }
 #banner .down_options .forth{
-  background: url(img/task7/four_icon.png) top center no-repeat;
+  background: url(../../img/task7/four_icon.png) top center no-repeat;
 }
 
 #banner .down_options p{

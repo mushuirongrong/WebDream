@@ -1,0 +1,117 @@
+#new_world_acti .banner{
+	width:100%;
+	height:360px;
+	background-color: #EDEDED;
+	text-align: center;
+	padding-top: 89px;
+}
+#new_world_acti .banner .title{
+	font-size: 53.59px;
+	color:#8F8D8E;
+	font-family: "黑体";
+	margin-top: 52px;
+}
+#new_world_acti .search_page{
+	background: url(../../img/task7/search_bac.jpg) no-repeat ;
+	text-align: center;
+	width: 100%;
+	height: 340px;
+	background-size: cover;
+	padding-top: 53px;
+	position: relative;
+}
+#new_world_acti .search_page .title{
+  font-size: 21px;
+  font-weight: normal;
+  font-family: "微软雅黑";
+  color: white;
+    text-align: center;
+}
+#new_world_acti .search_page .info{
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  font-family: "微软雅黑";
+}
+		#new_world_acti .search_page form{
+		  display: inline-block;
+		  margin-top:50px;
+		  margin-left: -250px;
+		  /*position: relative;*/
+		}
+		#new_world_acti .search_page .select{
+			display: inline-block;
+			position:relative;
+			/*position: absolute;*/
+		}
+		#new_world_acti .search_page form select{
+			width:236px;
+			height:36px;
+			padding-left: 10px;
+			font-size: 12px;
+			color: #A9A6A6;
+			margin-right: 28px;
+			-moz-appearance:none;                /*适用于不用的浏览器*/
+			-webkit-appearance:none;           /*去除系统默认appearance的样式,常用于IOS下移除原生样式*/
+			appearance:none;                      /*适用于不用的浏览器*/
+
+		}
+/*				#new_world_acti .search_page .select:after{
+			content: '';
+			width:20px;
+			height:20px;
+			position: absolute;
+			display: inline-block;
+			right:35px;
+			top:50%;
+			margin-top: -10px;
+			background: url(../img/btnb.png);
+			background-size: cover;
+		}*/
+		#new_world_acti .search_page #submit{
+			position: absolute;
+			display: inline-block;
+			width:236px;
+			height:36px;
+			background-color: #BE4E48;
+			font-size: 14px;
+			color:white;
+			font-family: "微软雅黑";
+			border: none;
+		}
+		#new_world_acti .acti_info
+		{
+			width:100%;
+			height:605px;
+			background-color: #F7F7F7;
+			padding-top: 100px;
+		}
+		#new_world_acti .acti_info .info_list{
+			display: inline-block;
+			width:100%;
+			transform: translateX(5%);
+		}
+		#new_world_acti .acti_info .info_list .part{
+			display: inline-block;
+			margin-left:50px;
+		}
+		#new_world_acti .acti_info .info_list .part .album{
+			padding: 10px;
+			background-color: white;
+			width:219px;
+			margin-top:10px;
+			border-top:1px solid #DCDCDD;
+			border-left:1px solid #DCDCDD;
+			border-right:1px solid #DCDCDD;
+		}
+		#new_world_acti .acti_info .part h4{
+		  margin:13px;
+		  text-align: center;
+		  font-family: "微软雅黑";
+		}
+		#new_world_acti .acti_info .part p{
+		  text-align: center;
+		  font-family: "微软雅黑";
+		  font-size:12px;
+		  color:#828281;
+		}
